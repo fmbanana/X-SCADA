@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<yTTrendChart>
+  <appearance BackGroundColor="#F5B0D6" AreaColor="#B0F5F5" BorderStyle="Single" />
+  <grid HorizontalColor="Red" VerticalColor="Green" HorizontalCount="5" VerticalCount="3" HorizontalVisible="true" VerticalVisible="true" />
+  <legend BackgroundColor="Transparent" TextColor="Black" Position="Top" Visible="true" Width="400" Height="20" />
+  <title TitleName="Chart Title" Font="Tahoma, 30pt, style=Bold" Color="Black" Width="200" Height="30" />
+  <tooltip TooltipType="Color" Visible="true" />
+  <targetLine>
+    <stripLine1 StripLineName="TargetLine1" NamePosition="Near" Color="Red" Width="5" DashStyle="Solid" Value="500" Visible="true" YAxis="Y1Axis" />
+    <stripLine2 StripLineName="TargetLine2" NamePosition="Near" Color="Yellow" Width="5" DashStyle="Solid" Value="900" Visible="true" YAxis="Y1Axis" />
+    <stripLine3 StripLineName="TargetLine3" NamePosition="Near" Color="Blue" Width="5" DashStyle="Solid" Value="1300" Visible="true" YAxis="Y1Axis" />
+    <stripLine4 StripLineName="TargetLine4" NamePosition="Near" Color="Green" Width="5" DashStyle="Solid" Value="1500" Visible="true" YAxis="Y1Axis" />
+  </targetLine>
+  <xAxis Title="XAxis" TitleFont="Tahoma, 20pt, style=Bold" TitleColor="Yellow" AxisColor="Red" LabelColor="Blue" LabelFont="Tahoma, 14pt, style=Italic, Underline, Strikeout" IsReversed="false" />
+  <y1Axis Title="Y1Axis" TitleFont="Tahoma, 14pt, style=Bold" TitleColor="Black" AxisColor="Black" LabelColor="Black" LabelFont="Tahoma, 8pt" Max="2000" Min="0" Position="Left" Formatter="0,0" />
+  <y2Axis Title="Y2Axis" TitleFont="Tahoma, 14pt, style=Bold" TitleColor="Black" AxisColor="Black" LabelColor="Black" LabelFont="Tahoma, 8pt" Max="1000" Min="0" Position="Left" Visible="true" Formatter="0,0" />
+  <y3Axis Title="Y3Axis" TitleFont="Tahoma, 14pt, style=Bold" TitleColor="Black" AxisColor="Black" LabelColor="Black" LabelFont="Tahoma, 8pt" Max="1000" Min="0" Position="Right" Visible="true" Formatter="0,0" />
+  <y4Axis Title="Y4Axis" TitleFont="Tahoma, 14pt, style=Bold" TitleColor="Black" AxisColor="Black" LabelColor="Black" LabelFont="Tahoma, 8pt" Max="1000" Min="0" Position="Right" Visible="true" Formatter="0,0" />
+  <seriesList SeriesCounter="5">
+    <series1 Name="series1" Visible="true" AxisExtra="Y1_Axis" Color="#DD9C9D" Width="1" Tag="analog_1" Type="Line" MarkerStyle="Circle" MarkerSize="3" />
+    <series2 Name="series2" Visible="true" AxisExtra="Y1_Axis" Color="#EDF8BA" Width="1" Tag="analog_2" Type="Line" MarkerStyle="Circle" MarkerSize="3" />
+    <series3 Name="series3" Visible="true" AxisExtra="Y1_Axis" Color="#DEF4EB" Width="1" Tag="analog_3" Type="Line" MarkerStyle="Circle" MarkerSize="3" />
+    <series4 Name="series4" Visible="true" AxisExtra="Y1_Axis" Color="#A4E82E" Width="1" Tag="analog_4" Type="Line" MarkerStyle="Circle" MarkerSize="3" />
+    <series5 Name="series5" Visible="true" AxisExtra="Y1_Axis" Color="#FEB188" Width="1" Tag="analog_5" Type="Line" MarkerStyle="Circle" MarkerSize="3" />
+  </seriesList>
+</yTTrendChart>

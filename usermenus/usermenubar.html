@@ -1,0 +1,68 @@
+<nav class>
+    <div class="nav-left">
+        <ul>
+            <li>
+                <a href="#" id="UserMenuItemPage_2" class="usermenuitem-page">Main</a>
+            </li>
+            <li>
+                <a href="#" id="UserMenuItemPage_3" class="usermenuitem-page">Sub1</a>
+            </li>
+            <li>
+                <a href="#" id="UserMenuItemPage_4" class="usermenuitem-page">Sub2</a>
+            </li>
+            <li>
+                <a href="#" id="UserMenuItemPage_5" class="usermenuitem-page">Sub3</a>
+            </li>
+        </ul>
+    </div>
+    <div class="nav-right">
+        <ul>
+        </ul>
+    </div>
+</nav class>
+<div id="login_popup" class="popup-modal"> 
+  <form id = "login_form" class="modal-content " method="post">
+  <div class="modal-header">
+  <h4><b>Login</b></h4>
+  </div>
+    <div class="login-container">
+      <label for="uname"><b>Username</b></label>
+      <input id = "user_id" type="text" placeholder="Enter Username" name="uname" required autofocus>
+      <label for="psw"><b>Password</b></label>
+      <input id = "user_pw" type="password" placeholder="Enter Password" name="psw" required>
+    <div style="float:right"> 
+      <button id = "login_btn" type="button" class="popup_btn">Login</button>
+      <button type="button" onclick="document.getElementById('login_popup').style.display = 'none'" class="popup_btn popup_cancel_btn">Cancel</button>
+    </div> 
+    </div> 
+  </form>
+</div>
+<div id="logout_popup" class="popup-modal"> 
+  <form id = "logout_form" class="modal-content " method="post">
+  <div class="modal-header">
+  <h4><b>Logout</b></h4>
+  </div>
+    <div class="login-container">
+    <div style="float:right"> 
+      <button id = "logout_btn" type="button" class="popup_btn">Logout</button>
+      <button type="button" onclick="document.getElementById('logout_popup').style.display = 'none'" class="popup_btn popup_cancel_btn">Cancel</button>
+    </div> 
+    </div> 
+  </form>
+</div>
+<div id="expire_popup" class="popup-modal"> 
+  <form id = "expire_form" class="modal-content ">
+  <div class="modal-header">
+  <h4><b>Timeout</b></h4>
+  </div>
+  <div class="modal-body">
+  Logout after 30 seconds.
+  </div>
+    <div class="login-container">
+    <div style="float:right"> 
+      <button id = "stay_btn" type="button" class="popup_btn">Stay Logged In</button>
+      <button type="button" onclick="document.getElementById('expire_popup').style.display = 'none'" class="popup_btn popup_cancel_btn">Cancel</button>
+    </div> 
+    </div> 
+  </form>
+</div>

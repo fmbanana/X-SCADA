@@ -1,0 +1,10 @@
+.messagebox {position:fixed;z-index:19999;top:calc(50% - 200px);left:calc(50% - 150px);width:300px;background:white;border-radius:4px;padding:20px;margin:0 auto;border:1px solid #616161;line-height:1.42857143;}
+.messagebox-overlay {position:fixed;z-index:19998;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,.5);}
+.messagebox-message {margin-bottom:20px;}
+.messagebox-prompt {margin-bottom: 20px;}
+.messagebox-input {width:100%;border-radius:4px;box-shadow:none;border:solid 1px #ccc;font-family:inherit;font-size:inherit;color:inherit;padding:6px 12px;display:block;box-sizing:border-box;margin-bottom:10px;}
+.messagebox-buttons {text-align: right;}
+.messagebox-ok{background:#09d;border:solid 1px #09d;font-family:inherit;font-size:inherit;color:white;border-radius:2px;padding:6px 12px;margin-left:4px;cursor:pointer;width:80px;}
+.messagebox-ok:hover,.messagebox-ok:focus,.messagebox-ok:active {background-color: #08c;}
+.messagebox-cancel {border: solid 1px #ddd;background: white;font-family: inherit;font-size: inherit;color:#202020;border-radius:2px;padding: 6px 12px;margin-left:4px;width:80px;cursor: pointer;}
+.messagebox-cancel:hover,.messagebox-cancel:focus,.messagebox-cancel:active {background-color: #f2f2f2;}
